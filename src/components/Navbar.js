@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import logo from "../assets/wix.png"
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
           <div className="text-white">
             <a href="/">
               <img
-                src="/logo.svg"
+                src={logo}
                 alt="logo"
                 className="w-[148px] h-[31px]"
               />
