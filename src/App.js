@@ -1,6 +1,6 @@
 import React from "react";
 
-import Logo from "./components/Logo";
+
 import Navbar from "./components/Navbar";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
@@ -18,7 +18,7 @@ function App() {
     <div className="min-h-screen  bg-gray-100">
       <Navbar />
       <div className="container mx-auto px-4 pt-16">
-        <Logo />
+        
         <MainContent />
         <Slider />
         <Content />
